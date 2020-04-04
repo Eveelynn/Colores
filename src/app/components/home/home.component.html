@@ -1,0 +1,30 @@
+<div class="container">
+  <div class="row">
+    <div class="col-12 text-center">
+      <h1>Colores</h1>
+    </div>
+  </div>
+  <div class="row">
+    <app-item-color 
+      class="col-4 p-3" 
+      [color]="color" 
+      *ngFor="let color of colores"
+      (click)="abreModal(color)"
+    ></app-item-color>
+  </div>
+  <br>
+  <div class="row">
+    <div class="col-12">
+      <ngb-pagination 
+        [collectionSize]="total" 
+        [(page)]="page" 
+        [pageSize]="per_page"
+        [maxSize]="6" 
+        [rotate]="true" 
+        [ellipses]="false" 
+        [boundaryLinks]="true"
+        (pageChange)="pageChanged()">
+      </ngb-pagination>
+    </div>
+  </div>
+</div>

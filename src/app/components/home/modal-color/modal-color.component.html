@@ -1,0 +1,21 @@
+<div class="modal-content" (click) = "copyToClipboard (color.color)">
+    <div class="modal-header">
+        <h4 id="dialog-sizes-name1" class="col-11 modal-title text-center">Colores</h4>
+        <button type="button" class="close pull-right" (click)="cerrarModal()" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <div class="modal-body">
+        <div class="card">
+            <div class="card-header text-left">
+                {{ color.id }}
+            </div>
+            <div class="card-body text-center">
+                <h5>¡Copiado!</h5>
+            </div>
+            <div class="card-footer text-right">
+                {{ color.pantone_value }}
+            </div>
+        </div>
+    </div>
+</div>
