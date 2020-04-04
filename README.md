@@ -11,8 +11,8 @@ Listado de tecnologías o frameworks:
 - Bootstrap 4.4
 
 
-Cómo instalar las depencias y correr el proyecto:
+Cómo instalar las dependencias y correr el proyecto:
 
-Primero debe descargar el proyecto de Github para que así se pueda abrir el proyecto, luego
+En primer lugar debe descargar el proyecto de Github para que así se pueda abrir el proyecto, luego
 debe abrir la consola cmd y ubicarse donde está el proyecto que se descargó desde Github,
 y finalmente ejecutar el comando "ng serve -o".
