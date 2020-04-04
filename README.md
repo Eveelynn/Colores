@@ -2,7 +2,7 @@ Introducción:
 
 Esta aplicación trata de que los departamentos y diseñadores de la empresa puedan tener 
 acceso a los colores en donde puedan tener una simple y amigable página donde puedan 
-tener acceso a todos y así copiarlos fácilmente.
+tener acceso a todos los colores y así copiarlos fácilmente.
 
 
 Listado de tecnologías o frameworks:
