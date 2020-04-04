@@ -13,6 +13,6 @@ Listado de tecnologías o frameworks:
 
 Cómo instalar las dependencias y correr el proyecto:
 
-En primer lugar debe descargar el proyecto de Github para que así se pueda abrir el proyecto, luego
-debe abrir la consola cmd y ubicarse donde está el proyecto que se descargó desde Github,
-y finalmente ejecutar el comando "ng serve -o".
+En primer lugar debe descargar el proyecto desde Github o si ya está guardado omita este paso, luego
+debe abrir la consola cmd y ubicarse donde está el proyecto que descargó, y finalmente ejecutar el 
+comando "ng serve -o".
